@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/blue-fluid-background-frame_53876-99019.jpg?w=360&t=st=1706542029~exp=1706542629~hmac=2231fd9e374f0a3c9fce4ccaa4ec740b0d0781089fadb23bc8222d8793e80673" );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+div{
+    border:gray 4px ;
+    margin-left: 400px;
+    margin-top: 30px;
+    
+}
+
+h1{
+    color:solid brown;
+    text-align: center;
+    margin-right: 170px;
+    ma
+}
+p{
+    color: blue;
+}
+button{
+    color:red;
+    background-color:white;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: solid black;
+    cursor: pointer;
+    text-align: center;
+    width:100px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: larger;
+    
+}

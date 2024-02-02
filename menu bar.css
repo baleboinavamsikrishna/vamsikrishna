@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-f9514ea83444ef5dfded019d798ca48b-lq");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    float:left;
+    width: 200px;
+    height:40px;
+    border-radius: 20px;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 40px;
+   font-size: x-large;
+   opacity:0.5;
+}
+ul li:hover{
+    background-color: greenyellow;
+    color: aliceblue;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+    }
+ul li ul li{
+    position: relative;
+}
+ul li ul li ul{
+    position: absolute;
+    left: 200px;
+    top: 0px; 
+}
